@@ -1,0 +1,364 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #F5F8FA;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+.logo {
+    width: 200px;
+    height: 39px;
+    margin-right: auto;
+}
+
+.account {
+    border: 2px solid #646E7A;
+    border-radius: 5px;
+    text-align: center;
+    padding: 3px;
+}
+
+.together {
+    font-size: 14px;
+    color: #1D2C3C;
+    margin: 0 10px;
+} 
+
+.first-hr {
+    margin: 0 20px;
+    background-color: #E0E6EA;
+    height: 2px;
+    border: none;
+}
+
+.main-div {
+    display: flex;
+    flex-direction: row;
+    width: 892px;
+    height: 854px;
+    margin: 50px auto;
+    border-radius: 0px 6px 6px 0px;
+    box-shadow: 2px 2px 20px rgb(206, 202, 202);
+}
+
+.first-main-div {
+    background-color: white;
+    width: 580px;
+    height: 854px;
+}
+
+.second-main-div {
+    background-color: #1179BF;
+    width: 312px;
+    height: 854px;
+}
+
+.checkout-div {
+    margin: 40px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    color: #1D2C3C;
+    text-shadow: 2px 2px 4px #bdbaba;
+}
+
+.second-hr {
+    background-color: #F5F7FA;
+    height: 2px;
+    border: none;
+}
+
+.number-1-div, .basic-info-div, .number-2-div, .payment-info-div {
+    display: inline-block;
+}
+
+.number-1-div, .number-2-div {
+    width: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    border: 2px solid #548BC5;
+    color: #548BC5;
+    margin: 30px 10px 0 40px;
+}
+
+.basic-info-div, .payment-info-div {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21.6px;
+    color: #1D2C3C;
+}
+
+.first-last-email-div {
+    width: 483px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px 0 40px 40px;
+
+}
+
+.first-name-div-input, .last-name-div-input {
+    width: 227px;
+    height: 36px;
+    border: none;
+    background-color: #EDEFF2;
+}
+
+.email-div-input {
+    width: 370px;
+    height: 36px;
+    border: none;
+    background-color: #EDEFF2;
+}
+
+.email-div {
+    margin-top: 10px;
+}
+
+.third-hr {
+    background-color: #F5F7FA;
+    height: 2px;
+    border: none;
+}
+
+.credit-card-div {
+    margin: 10px 0 40px 40px;
+}
+
+.credit-card-div-input {
+    width: 474px;
+    height: 36px;
+    border: none;
+    background-color: #EDEFF2;
+}
+
+.fourth-hr {
+    background-color: #F5F7FA;
+    height: 2px;
+    border: none;
+}
+
+.div-button-input {
+    width: 481px;
+    height: 52px;
+    background-color: #038E7D;
+    color: #FFFFFF;
+    border: none;
+}
+
+.div-button {
+    margin: 40px 0 40px 40px;
+}
+
+.mark-div, .need-div, .dont-div {
+    display: inline-block;
+}
+
+.mark-div {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    color: #548BC5;
+    border: 2px solid #548BC5;
+    text-align: center;
+}
+
+.need-div {
+    font-weight: 700;
+    font-size: 14px;
+    color: #1D2C3C;
+}
+
+.dont-div {
+    font-weight: 400;
+    font-size: 14px;
+    color: #646E7A;
+}
+
+.help-div {
+    width: 333px;
+    margin: 0 auto;
+}
+
+.stripe-main-div {
+    background-color: #566473;
+    width: 92px;
+    line-height: 20.1px;
+    margin: 30px auto;
+}
+
+.powered-div, .stripe-div {
+    display: inline-block;
+}
+
+.powered-div {
+    font-size: 10px;
+    font-weight: 100;
+    color: white;
+    padding: 2px;
+}
+
+.stripe-div {
+    font-size: 10px;
+    font-weight: 900;
+    color: white;
+    padding: 2px;
+}
+
+/* .year-div, .term-div {
+    display: inline-block;
+} */
+
+.year-div {
+    font-weight: 400;
+    font-size: 14px;
+    color: #636B6F;
+}
+
+.term-div {
+    font-weight: 400;
+    font-size: 14px;
+    color: #31708F;
+}
+
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.plan-div {
+    width: 231px;
+    height: 152px;
+    color: #FFFFFF;
+    margin: 40px;
+}
+
+.freelancer-div {
+    width: 93px;
+    height: 24px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.dollar-div, .amount-div, .slash-year-div {
+    display: inline-block;
+}
+
+.pricing-div {
+    width: 140px;
+    height: 72px;
+}
+
+.amount-div {
+    position: relative;
+    font-weight: 300;
+    font-size: 60px;
+    line-height: 72px;
+    margin-left: 15px;
+}
+
+.amount-div::before {
+    content: '$';
+    position: absolute;
+    bottom: 10px;
+    left: -17px;
+    font-size: 24px;
+}
+
+.amount-div::after {
+    content: '/ year';
+    position: absolute;
+    bottom: -10px;
+    right: -70px;
+    font-size: 24px;
+}
+
+.slash-year-div {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21.6px;
+}
+
+.auto-div {
+    width: 229px;
+    height: 48px;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 24px;
+}
+
+.offer-div {
+    width: 170px;
+    height: 96px;
+    color: white;
+    margin: 40px;
+}
+
+.offer-div > div {
+    margin-top: 10px;
+}
+
+.first-offer-div, .second-offer-div, .third-offer-div {
+    display: flex;
+    gap: 10px;
+}
+
+.first-offer-content, .second-offer-content, .third-offer-content {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.cls {
+    height: 51px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin: 40px;
+}
+
+.client, .switch {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.fifth-hr {
+    width: 224px;
+    color: white;
+    opacity: 20.05%;
+}
+
+.kirk {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.testimony-div {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+}
+
+.testimony-div > div {
+    margin-top: 10px;
+}
+
+.testimony-div-text {
+    font-style: italic;
+    font-weight: 400;
+}
+
+span {
+    font-weight: 700;
+}
